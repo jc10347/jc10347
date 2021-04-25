@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: pod
+spec:
+  containers:
+    - name: au
+      image: <youname>/au
+      ports:
+        - containerPort: 17001
+    - name: ae
+      image: <youname>/ae
+      ports:
+        - containerPort: 17002
+    - name: be
+      image: <youname>/be
+      ports:
+        - containerPort: 17003
+    - name: bu
+      image: <youname>/bu
+      ports:
+        - containerPort: 17004
