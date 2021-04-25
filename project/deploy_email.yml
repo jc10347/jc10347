@@ -3,18 +3,18 @@ kind: pod
 spec:
   containers:
     - name: au
-      image: <youname>/au
+      image: jc10347/au
       ports:
         - containerPort: 17001
     - name: ae
-      image: <youname>/ae
+      image: jc10347/ae
       ports:
         - containerPort: 17002
     - name: be
-      image: <youname>/be
+      image: jc10347/be
       ports:
         - containerPort: 17003
     - name: bu
-      image: <youname>/bu
+      image: jc10347/bu
       ports:
         - containerPort: 17004
